@@ -70,7 +70,7 @@ retrieved_paste_text = ghostlid.get_paste('p3qcy')
 # Get the paste we submitted above
 paste_id = ghostlid.get_paste_id(paste_url)
 retrieved_paste_text = ghostlid.get_paste(paste_id)
-    ```
+```
 
 
 # Known Issues
