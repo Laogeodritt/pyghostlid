@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name='PyGhostLid',
-    version='0.2.2',
+    version='0.2.0',
     packages=['ghostlid'],
     license='Modified BSD',
     author='Marc-Alexandre Chan',

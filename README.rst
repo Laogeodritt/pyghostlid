@@ -13,7 +13,7 @@ This is a super simple library, but I thought it'd be worth sharing it
 anyway.
 
 What's GhostBin? Why this library?
-==================================
+----------------------------------
 
 GhostBin is an open-source "pastebin"-like web application, that allows
 users to upload arbitrary text files for sharing on the internet: for
@@ -30,20 +30,20 @@ one-click "Upload to GhostBin" button for error messages/stack traces to
 allow them to easily ask for help or include in a bug report.
 
 Requirements
-============
+------------
 
 This library requires Python 3.x, recommended >= 3.2. It is tested
 against Python 3.5.
 
 Basic usage
-===========
+-----------
 
 This library consists of a single class, ``GhostLid``, and is dead
 simple. Check out the basic examples below, and the method docstrings in
 the source for more info on the available options, including using a
 host other than ``ghostbin.com`` and setting defaults.
 
-.. code-block::  python
+.. code:: python
 
     # The text we want to paste
     paste_text = """
@@ -85,7 +85,7 @@ host other than ``ghostbin.com`` and setting defaults.
     retrieved_paste_text = ghostlid.get_paste(paste_id)
 
 Known Issues
-============
+------------
 
 -  Retrieval ``get_paste()`` does not work with Ghostbin.com at the time
    of writing, because `the /raw feature was
@@ -94,7 +94,7 @@ Known Issues
    or may not be enabled on any self-hosted Ghostbin instances.
 
 Links
-=====
+-----
 
 -  `Protocol information for
    GhostBin <https://ghostbin.com/paste/p3qcy>`__
