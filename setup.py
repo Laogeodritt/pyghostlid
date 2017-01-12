@@ -16,7 +16,7 @@ setup(
     author='Marc-Alexandre Chan',
     author_email='laogeodritt@arenthil.net',
     url='https://github.com/Laogeodritt/pyghostlid',
-    download_url='https://github.com/Laogeodritt/pyghostlid/tarball/0.2',
+    download_url='https://github.com/Laogeodritt/pyghostlid/tarball/0.2.0',
     keywords=['ghostbin', 'pastebin', 'api', 'upload'],
     classifiers=['Development Status :: 3 - Alpha',
                  'License :: OSI Approved :: BSD License',
