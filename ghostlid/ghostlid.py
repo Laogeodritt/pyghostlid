@@ -88,12 +88,6 @@ class GhostLid:
         if not args_struct['password']:
             del args_struct['password']
 
-        # validate language
-        if self.get_language_info() is None:
-            self.load_languages()
-        if args_struct['lang'] not in self.get_lang_list():
-            raise ValueError('Invalid language', None, args_struct)
-
         # make request
         args_enc = urllib.parse.urlencode(args_struct).encode('utf-8')
         req = urllib.request.Request(self.get_paste_url(), data=args_enc, method='POST')
