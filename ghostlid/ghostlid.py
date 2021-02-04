@@ -45,7 +45,7 @@ class GhostLid:
         """
         self.host = host  # type: str
         self.user_agent = user_agent  # type: str
-        self.defaults = {'password': None, 'expires': None, 'lang': 'text'}  # default defaults
+        self.defaults = {'password': None, 'expire': None, 'lang': 'text'}  # default defaults
         if defaults is not None:
             self.defaults.update(defaults)
 
