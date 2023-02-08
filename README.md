@@ -1,3 +1,8 @@
+# ARCHIVED
+
+ghostbin.com has disappeared for several years, and its sources appear to no longer be available
+online. This library is therefore no longer functional.
+
 # PyGhostLid
 
 Submit and retrieve pastes from GhostBin within your application! This library supports both
